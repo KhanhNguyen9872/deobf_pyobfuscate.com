@@ -1,8 +1,11 @@
 #!/bin/python3
 __import__('sys').setrecursionlimit(1000000000) 
 
+
 # obfuscate variable
 pyobfuscate = ()  # replace pyobfuscate var
+# or
+obfuscate = ""
 
 
 ### DEOBFUSCATE

@@ -4,38 +4,24 @@ __import__('sys').setrecursionlimit(1000000000)
 # obfuscate variable
 # pyobfuscate = ()  # replace pyobfuscate var
 # or
-# obfuscate = ""
+# httpspyobfuscatecom
 
 ### DEOBFUSCATE
+from Crypto.Cipher import AES
+from Crypto.Random import get_random_bytes
+from Crypto.Protocol.KDF import PBKDF2
+from Crypto.Util.Padding import unpad
 import hashlib
 from base64 import b85decode as b85
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
 try:
-    if not 'exec' == pyobfuscate[0][1]:
-        print('Try Another Method :)')
-        input('Press Enter to Exit')
-        exit()
-    try:
-        try:
-            def a(i):
-                return unpad(AES.new(hashlib.sha256(str(list(pyobfuscate)[0][0] + list(pyobfuscate)[1][0]).encode()).digest()[:24], AES.MODE_CBC, i[:AES.block_size]).decrypt(i[AES.block_size:]), AES.block_size).decode()
-            print(a(pyobfuscate[1][2]))
-        except:
-            def a(i):
-                return unpad(AES.new(hashlib.sha256(str(list(pyobfuscate)[0][0] + list(pyobfuscate)[1][0][:-1]).encode()).digest()[:24], AES.MODE_CBC, i[:AES.block_size]).decrypt(i[AES.block_size:]), AES.block_size).decode()
-            print(a(pyobfuscate[1][2]))
-    except ValueError as e:
-        print(e)
-        input('Press Enter to Exit')
-        exit()
-except:
-    def a(i, j):
-        i = b85(i)
-        j, c = b(j, i[:8])
-        return AES.new(j, AES.MODE_CFB, c).decrypt(i[8:]).decode()
 
-    def b(i, j):
-        k = hashlib.pbkdf2_hmac('sha256', i.encode(), j, 100000)
-        return (k[:16], k[16:])
-    print(a(list(obfuscate.values())[0], list(obfuscate.keys())[0][1:-1]))
+    def d(b, p):
+        c = b85(b.encode('utf-8'))
+        r = AES.new(PBKDF2(p, c[:16], dkLen=32, count=1000000), AES.MODE_GCM, nonce=c[16:32])
+        return r.decrypt_and_verify(c[48:], c[32:48]).decode('utf-8')
+    print(d(pyc + pye, httpspyobfuscatecom))
+except:
+
+    def a(i):
+        return unpad(AES.new(hashlib.sha256(str(list(pyobfuscate)[0][0] + list(pyobfuscate)[1][0][:-1]).encode()).digest()[:24], AES.MODE_CBC, i[:AES.block_size]).decrypt(i[AES.block_size:]), AES.block_size).decode()
+    print(a(pyobfuscate[1][2]))

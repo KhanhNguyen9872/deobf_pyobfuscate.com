@@ -12,9 +12,9 @@ a program can deobfuscate python from [pyobfuscate.com/pyd](https://pyobfuscate.
 5. done!
 
 ## For old version
-- 17-07-2024
-+ Image tutorial: https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/e7c93712a337c99936ba6479722e0261ab0b7913/img/test.png
-+ Script: https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/e7c93712a337c99936ba6479722e0261ab0b7913/pyd_pyobf_deobf.py
+- 26-10-2023 [Image tutorial](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/ba0d789cf75b0f88bfbf34a69606072aec66a025/img/test.png), [Script](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/ba0d789cf75b0f88bfbf34a69606072aec66a025/pyobfuscate_deobf_py311.py)
+- 17-07-2024 [Image tutorial](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/e7c93712a337c99936ba6479722e0261ab0b7913/img/test.png), [Script](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/e7c93712a337c99936ba6479722e0261ab0b7913/pyd_pyobf_deobf.py)
+
 
 ## [Obfuscate Pyobfuscate.com/pyd](https://pyobfuscate.com/pyd)
 ## you can post issue [here](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/issues/new)

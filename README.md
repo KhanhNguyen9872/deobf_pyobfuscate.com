@@ -11,8 +11,10 @@ a program can deobfuscate python from [pyobfuscate.com/pyd](https://pyobfuscate.
 4. input obf file path (example in picture is `obf.py`)
 5. done!
 
-## For old version, check here
-- [17-07-2024](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/commit/e7c93712a337c99936ba6479722e0261ab0b7913)
+## For old version
+- 17-07-2024
++ Image tutorial: https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/e7c93712a337c99936ba6479722e0261ab0b7913/img/test.png
++ Script: https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/blob/e7c93712a337c99936ba6479722e0261ab0b7913/pyd_pyobf_deobf.py
 
 ## [Obfuscate Pyobfuscate.com/pyd](https://pyobfuscate.com/pyd)
 ## you can post issue [here](https://github.com/KhanhNguyen9872/deobf_pyobfuscate.com/issues/new)
